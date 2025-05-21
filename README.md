@@ -26,23 +26,23 @@ Data jsme očistili od chybějících nebo nepravděpodobných hodnot a následn
 Použili jsme jak supervised (učení s učitelem), tak unsupervised (učení bez učitele) přístupy:
 - **Supervised learning**:
 
-    Decision Tree (rozhodovací strom) – nejlepší výkon:
+        Decision Tree (rozhodovací strom) – nejlepší výkon:
 
         Accuracy: 74,68 %,
 
         F1-score: 75,03 %
 
-    Random Forest
+        Random Forest
 
-    Baseline model – náhodný klasifikátor pro porovnání
+        Baseline model – náhodný klasifikátor pro porovnání
 
 - **Unsupervised learning**:
 
-    K-means clustering
+        K-means clustering
 
-    Silhouette skóre: 0,512 (střední kvalita)
+        Silhouette skóre: 0,512 (střední kvalita)
 
-    Hierarchické shlukování s Wardovou metodou
+        Hierarchické shlukování s Wardovou metodou
 
 # 📊 Vyhodnocení a interpretace
 - **Decision Tree** se ukázal jako nejvýkonnější model a zároveň snadno interpretovatelný.
