@@ -45,6 +45,7 @@ Použili jsme jak supervised (učení s učitelem), tak unsupervised (učení be
     Hierarchické shlukování s Wardovou metodou
 
 # 📊 Vyhodnocení a interpretace
-**Decision Tree** se ukázal jako nejvýkonnější model a zároveň snadno interpretovatelný.
-Mezi nejvýznamnější atributy patřila **plazmatická glukóza (plas)**, která výrazně ovlivňovala rozhodnutí modelu.
-Shlukovací metody ukázaly potenciál pro segmentaci pacientů na základě podobných charakteristik.
+- **Decision Tree** se ukázal jako nejvýkonnější model a zároveň snadno interpretovatelný.
+- Mezi nejvýznamnější atributy patřila **plazmatická glukóza (`plas`)**, která výrazně ovlivňovala rozhodnutí modelu.
+- Shlukovací metody ukázaly potenciál pro segmentaci pacientů na základě podobných charakteristik.
+
