@@ -1,13 +1,14 @@
 # Diabetes
 
 # tl;dr
-Semestrální skupinová práce. Cílem bylo zjistit hlavní faktory ovlivňující výskyt diabetu u žen pomocí dat a strojového učení. Použit byl dataset https://www.openml.org/search?type=data&amp;sort=runs&amp;status=active&amp;id=37.
+Semestrální skupinová práce. Cílem bylo zjistit hlavní faktory ovlivňující výskyt diabetu u žen pomocí dat a strojového učení. Použit byl [OpenML Dataset #37 – Diabetes]([https://www.openml.org/d/37](https://www.openml.org/search?type=data&amp;sort=runs&amp;status=active&amp;id=37)
+.
 
 # Úvod
 Tématem našeho semestrálního projektu byla analýza výskytu diabetu u žen pomocí různých metod strojového učení. Cílem bylo vytvořit prediktivní model, který by dokázal identifikovat faktory ovlivňující výskyt diabetu, a následně tyto informace využít k predikci onemocnění na základě vstupních dat.
 
 # 🔬 Použitý dataset
-Pracovali jsme s klasickým datasetem zaměřeným na ženy indiánského původu ve věku 21 let a více (https://www.openml.org/search?type=data&amp;sort=runs&amp;status=active&amp;id=37). Dataset obsahoval atributy jako:
+Pracovali jsme s klasickým datasetem [OpenML Dataset #37 – Diabetes]([https://www.openml.org/d/37](https://www.openml.org/search?type=data&amp;sort=runs&amp;status=active&amp;id=37) zaměřeným na ženy indiánského původu ve věku 21 let a více. Dataset obsahoval atributy jako:
 
     Plazmatická glukóza (plas),
 
