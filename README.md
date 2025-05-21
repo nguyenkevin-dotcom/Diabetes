@@ -1,7 +1,7 @@
 # Diabetes
 
 # tl;dr
-Semestrální skupinová práce. Zjistit hlavní faktory ovlivňující výskyt diabetu u žen pomocí dat a strojového učení. Použit byl dataset  https://www.openml.org/search?type=data&amp;sort=runs&amp;status=active&amp;id=37.
+Semestrální skupinová práce. Cílem bylo zjistit hlavní faktory ovlivňující výskyt diabetu u žen pomocí dat a strojového učení. Použit byl dataset  https://www.openml.org/search?type=data&amp;sort=runs&amp;status=active&amp;id=37.
 
 # Úvod
 Tématem našeho semestrálního projektu byla analýza výskytu diabetu u žen pomocí různých metod strojového učení. Cílem bylo vytvořit prediktivní model, který by dokázal identifikovat faktory ovlivňující výskyt diabetu, a následně tyto informace využít k predikci onemocnění na základě vstupních dat.
@@ -24,7 +24,7 @@ Data jsme očistili od chybějících nebo nepravděpodobných hodnot a následn
 
 # 🤖 Modelování
 Použili jsme jak supervised (učení s učitelem), tak unsupervised (učení bez učitele) přístupy:
-Supervised learning:
+**Supervised learning**:
 
     Decision Tree (rozhodovací strom) – nejlepší výkon:
 
@@ -36,7 +36,7 @@ Supervised learning:
 
     Baseline model – náhodný klasifikátor pro porovnání
 
-Unsupervised learning:
+**Unsupervised learning**:
 
     K-means clustering
 
@@ -45,8 +45,6 @@ Unsupervised learning:
     Hierarchické shlukování s Wardovou metodou
 
 # 📊 Vyhodnocení a interpretace
-    Decision Tree se ukázal jako nejvýkonnější model a zároveň snadno interpretovatelný.
-
-    Mezi nejvýznamnější atributy patřila plazmatická glukóza (plas), která výrazně ovlivňovala rozhodnutí modelu.
-
-    Shlukovací metody ukázaly potenciál pro segmentaci pacientů na základě podobných charakteristik.
+**Decision Tree** se ukázal jako nejvýkonnější model a zároveň snadno interpretovatelný.
+Mezi nejvýznamnější atributy patřila **plazmatická glukóza (plas)**, která výrazně ovlivňovala rozhodnutí modelu.
+Shlukovací metody ukázaly potenciál pro segmentaci pacientů na základě podobných charakteristik.
