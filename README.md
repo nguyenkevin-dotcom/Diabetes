@@ -24,7 +24,7 @@ Data jsme očistili od chybějících nebo nepravděpodobných hodnot a následn
 
 # 🤖 Modelování
 Použili jsme jak supervised (učení s učitelem), tak unsupervised (učení bez učitele) přístupy:
-**Supervised learning**:
+- **Supervised learning**:
 
     Decision Tree (rozhodovací strom) – nejlepší výkon:
 
@@ -36,7 +36,7 @@ Použili jsme jak supervised (učení s učitelem), tak unsupervised (učení be
 
     Baseline model – náhodný klasifikátor pro porovnání
 
-**Unsupervised learning**:
+- **Unsupervised learning**:
 
     K-means clustering
 
